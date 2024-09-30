@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Request /GET request 1`] = `
+{
+  "apellido": "Baldovino",
+  "codigoTramite": null,
+  "documento": "45051325",
+  "email": "mariano1baldovino@gmail.con",
+  "idTramite": 1,
+  "nombre": "Mariano",
+}
+`;
