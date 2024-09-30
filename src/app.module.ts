@@ -9,12 +9,11 @@ import { CustomConfigService } from './shared/custom-config.service';
 
 import { ExamUsersModule } from './modules/obtainExamUsers/obtain-exam-users.module';
 import { InsertExamResultsModule } from './modules/insertExamResults/insert-exam-result.module';
-import { InsertTurnModule } from './modules/insertTurn/insert-turn.module';
+
 
 
 @Module({
   imports: [
-    InsertTurnModule,
     InsertExamResultsModule,
     ExamUsersModule,
     ConfigModule.forRoot({ isGlobal: true }),
